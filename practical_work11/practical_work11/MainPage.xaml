@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="practical_work11.MainPage">
+
+    <StackLayout Padding="5">
+        
+        <Label Text="Orientation=Vertical" TextColor="Red" HorizontalOptions="Center"/>
+        <Frame BorderColor="#84CD2B">
+            <StackLayout Orientation="Vertical" Spacing="8" >
+                <Label Text="Станислав" TextColor="Black" />
+                <Label Text="ПКС-30К" TextColor="Black" />
+                <Label Text="Увлечений нет" TextColor="Black" />
+                <Label Text="Хобби нет" TextColor="Black" />
+                <Label Text="О чем угодно" TextColor="Black" />
+            </StackLayout>
+        </Frame>
+        <Label Text="Orientation=Horizontal" TextColor="Red" HorizontalOptions="Center"/>
+        <Frame BorderColor="Orange">
+            <StackLayout Orientation="Horizontal" Spacing="8" >
+                <Label Text="Станислав" TextColor="Black" FontSize="10"/>
+                <Label Text="ПКС-30К" TextColor="Black" FontSize="10"/>
+                <Label Text="Увлечений нет" TextColor="Black" FontSize="10"/>
+                <Label Text="Хобби нет" TextColor="Black" FontSize="10"/>
+                <Label Text="О чем угодно" TextColor="Black" FontSize="10"/>
+            </StackLayout>
+        </Frame>
+        <Label Text="Photo" TextColor="Red" HorizontalOptions="Center"/>
+        <Frame BorderColor="Blue">
+            <Image Source="Resource/drawable/smile.png"/>
+        </Frame>
+        
+    </StackLayout>
+</ContentPage>
